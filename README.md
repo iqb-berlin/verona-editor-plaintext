@@ -9,6 +9,8 @@ IQB\`s verona-editor-plaintext is a software component to edit any plain text fo
 
 In order to use it, you need a verona compliant web application. The editor consists of one single html file. See the release section of this repository to get one. The filename makes it clear what version it is. After download, just go to the web application of your choice and upload it (there should be some admin function for this.
 
+This editor does NOT send a type for unit definitions, because it doesn't know what the definition is for.
+
 ## How to contribute
 
 We welcome every feedback on this editor. Please go to [our main GitHub-Page](https://iqb-berlin.github.io/) to find contact data.
