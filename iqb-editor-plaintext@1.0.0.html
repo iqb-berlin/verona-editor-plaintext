@@ -25,7 +25,7 @@
                 "de": "Dieser Editor verarbeitet Aufgaben-/Seitendefinitionen als Text. Dies ist sinnvoll z. B. für Xml-, Html- oder scriptbasierte Formate, für die kein separater Editor bereitgestellt wird.\n\nAchtung: Für binäre oder JSON-Formate sollten andere Editoren genutzt werden, die die Konsistenz der Daten sicherstellen. Eine Bearbeitung dieser Formate mit diesem Text-Editor kann die Aufgaben-/Seitendefinitionen unbrauchbar machen.",
                 "en": "You can use this Verona Editor for all unit definitions, because the data format of unit definitions is technically always string/text. But be careful: improper changes may damage the definition so it's not usable anymore."
             },
-            "version": "1.0.0",
+            "version": "1.0.1",
             "apiVersion": "2.0",
             "repository": {
                 "type": "git",
@@ -85,7 +85,7 @@
     // some settings, that might be overridden for testing per query-params in URL
     const editorSettings = Object.assign(
         {
-            debounceStateMessages: 1000,
+            debounceStateMessages: 100,
             debounceKeyboardEvents: 100
         },
         location.search
